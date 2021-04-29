@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="form-container">
+            
+            <form id="form" action="/" method="POST">
+            
+            <h2>Cadastro de Participante</h2>
+
+            <label for="title">Título</label>
+            <select id="cars" name="cars">
+                <option value="mr">Otro</option>
+                <option value="nuss">Senhora</option>
+                <option value="mr">Senhor</option>
+                <option value="mrs">Senhorita</option>
+                <option value="ms">Jovem</option>
+            </select>
+
+            <label for="fname">Nome</label>
+            <input type="text" name="fname" id="fname">
+
+            <label for="lname" id="tarje">Sobrenome</label>
+            <input type="text" name="lname" id="lname">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="date">Data de Nascimento</label>
+            <input type="date" name="date" id="date">
+
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Senha deverá conter mínimo 6 caracteres">
+
+            <label for="conf-password">Confirmar Senha</label>
+            <input type="password" name="conf-password" id="conf-password" placeholder="Confirmar senha">
+
+        
+            <label for="edad" id="checkb">
+                <input type="checkbox" id="edad" name="edad" value="edad"> 
+              Confirmo tenho 18 anos.
+            </label>
+        
+           
+
+            <button type="submit" class="btn-submit">Enviar</button>
+            <div id="error"></div>
+        </form>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
