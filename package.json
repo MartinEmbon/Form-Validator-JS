@@ -1,0 +1,23 @@
+{
+  "name": "form-validator-js",
+  "description": "Form validator:",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinEmbon/Form-Validator-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinEmbon/Form-Validator-JS/issues"
+  },
+  "homepage": "https://github.com/MartinEmbon/Form-Validator-JS#readme",
+  "dependencies": {
+    "sweetalert2": "^11.1.5"
+  }
+}
